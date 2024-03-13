@@ -10,4 +10,7 @@ func main() {
 
 	var novalue string
 	fmt.Println(novalue)
+
+	novalue = "with value"
+	fmt.Println(novalue)
 }
