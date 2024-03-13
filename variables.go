@@ -2,10 +2,12 @@ package main
 
 import("fmt")
 
-const PI = 3.14
+const (
+	PI = 3.14
+	PHI = 1.61
+)
 
 func main() {
-	const constant int = 7
-	fmt.Println(constant)
 	fmt.Println(PI)
+	fmt.Println(PHI)
 }
