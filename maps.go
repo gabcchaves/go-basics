@@ -2,6 +2,6 @@ package main
 import("fmt")
 
 func main() {
-	var a = map[int]string{0:"apple", 1:"orange", 2:"banana"}
+	var a map[int]string
 	fmt.Println(a)
 }
