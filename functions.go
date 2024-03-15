@@ -1,10 +1,10 @@
 package main
 import("fmt")
 
-func sayHi(firstName string, lastName string) {
-	fmt.Printf("Hi, %v %v.\n", firstName, lastName)
+func sum(a int, b int) int {
+	return a + b
 }
 
 func main() {
-	sayHi("Gabriel", "Chaves")
+	fmt.Println(sum(1, 2))
 }
