@@ -1,12 +1,14 @@
 package main
 import("fmt")
 
-func sum(a int, b int) (tag string, result int) {
-	tag = "Sum is"
-	result = a + b
-	return
+func fact(n int) int {
+	if n == 1 {
+		return 1
+	} else {
+		return n * fact(n - 1)
+	}
 }
 
 func main() {
-	fmt.Println(sum(1, 2))
+	fmt.Println(fact(5))
 }
