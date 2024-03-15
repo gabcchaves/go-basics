@@ -1,7 +1,8 @@
 package main
 import("fmt")
 
-func sum(a int, b int) (result int) {
+func sum(a int, b int) (tag string, result int) {
+	tag = "Sum is"
 	result = a + b
 	return
 }
